@@ -1,0 +1,62 @@
+.ministerio-contenedor{
+    background-color: #CABD9A;
+    padding: 10px 20px 10px 20px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 5px 0px #00000071;
+}
+.ministerio-nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.btn-hover:hover{
+    color: #FFFFFF;
+    transition: 200ms;
+}
+
+
+
+
+/* Modal */
+.contenedor-modal{
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.293);
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+.marco-modal{
+    max-width: 600px;
+    height: 600px;
+    min-width: 200px;
+    padding: 20px;
+    background-color: #FFFFFF;
+    border-radius: 5px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    box-shadow: 1px 1px 5px 0px #00000071;
+}
+.btn-modal{
+    width: 40px;
+    height: 35px;
+    background-color: red;
+    color: #FFFFFF;
+    border-radius: 5px;
+    position: relative;
+    justify-content: end;
+}
+
+@media (width < 600px){
+    .marco-modal{
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+}

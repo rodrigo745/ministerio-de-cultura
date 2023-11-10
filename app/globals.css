@@ -1,0 +1,102 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+  background-color: #E2EEEC;
+  color: #675A37;
+  padding: 10px;
+}
+
+.colorMarron{
+  background-color: #675A37;
+}
+
+/* Ministerio de cultura */
+.inicio-contenedor-mayor{
+  width: 100%;
+  height: 100%;
+}
+.inicio-contenedor-cultura{
+  background-color: #CFDBDA;
+  width: 100%;
+  height: 89vh;
+  min-width: 370px;
+  border-radius: 5px;
+  margin-top: 15px;
+  padding: 30px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.inicio-contenedor-categorias{
+  display: flex;
+  flex-direction: column;
+  background-color: #8AAAA5;
+  color: #FFFFFF;
+  width: 100%;
+  height: 89vh;
+  min-width: 370px;
+  border-radius: 5px;
+  margin-top: 15px;
+  padding-top: 50px;
+}
+.inicio-btn-oficial{
+  background-color: #CABD9A;
+  color: #675A37;
+  width: 150px;
+  height: 40px;
+  border-radius: 5px;
+  margin-top: 10px;
+  padding: 8px;
+  text-align: center;
+}
+
+/* Categorias */
+.contenedor-categoria-icono{
+  width: 150px;
+  height: 150px;
+  background-color: #CABD9A;
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.categoria-hover{
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+}
+.categoria-hover:hover{
+  background-color: #675a372a;
+  border-radius: 5px;
+  box-shadow: 1px 1px 5px 0px #00000071;
+  transition: 200ms;
+}
+
+
+
+
+
+@media (width < 600px){
+  .inicio-contenedor-cultura{
+    height: 100%;
+  }
+  .contenedor-categoria-icono{
+    width: 120px;
+    height: 120px;
+  }
+}
+@media (width > 600px){
+  .inicio-contenedor-cultura{
+    padding-right: 50px;
+    padding-left: 50px;
+  }
+}
+
+
+
+
+
+
+
+
