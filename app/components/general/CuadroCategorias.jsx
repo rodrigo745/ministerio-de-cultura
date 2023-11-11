@@ -3,7 +3,7 @@ import Link from 'next/link';
 
 export default function CuadroCategorias(){
     return(
-        <div className='inicio-contenedor-categorias md:w-2/3'>
+        <div className='inicio-contenedor-categorias h-full md:w-2/3'>
           <label className='text-center text-2xl'>Categorias</label>
           <div className='grid grid-cols-2 md:grid-cols-3
                          justify-items-center md:px-5 xl:px-20 2xl:px-40'>
