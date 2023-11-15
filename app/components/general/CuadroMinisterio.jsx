@@ -4,7 +4,7 @@ import IconoReact from "@/public/icono-react.svg";
 
 export default function CuadroMinisterio(){
     return(
-        <div className='inicio-contenedor-cultura md:mr-5 md:w-1/3 flex flex-col '>
+        <div className='inicio-contenedor-cultura md:pt-12 md:mr-5 md:w-1/3 flex flex-col '>
           <label className='text-2xl'>Ministerio de cultura</label>
           <label className='mt-5'>
           Esta página ha sido creada con el propósito de recopilar y presentar información obtenida directamente de la API del Ministerio de Cultura de la Nación Argentina. Aquí, los usuarios pueden explorar una variedad de categorías, incluyendo Organismos, Programas, Museos, Institutos y Trámites, lo que les permite acceder a datos relevantes de manera sencilla y organizada.

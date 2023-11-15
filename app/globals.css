@@ -21,11 +21,10 @@ body{
   background-color: #CFDBDA;
   width: 100%;
   height: 89vh;
-  min-width: 370px;
+  min-width: 340px;
   border-radius: 5px;
   margin-top: 15px;
   padding: 30px;
-  padding-top: 50px;
   padding-bottom: 50px;
 }
 .inicio-contenedor-categorias{
@@ -35,10 +34,9 @@ body{
   color: #FFFFFF;
   width: 100%;
   height: 89vh;
-  min-width: 370px;
+  min-width: 340px;
   border-radius: 5px;
   margin-top: 15px;
-  padding-top: 50px;
 }
 .inicio-btn-oficial{
   background-color: #CABD9A;
